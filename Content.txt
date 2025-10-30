@@ -1,0 +1,28 @@
+Paleta de coloroes:
+fondo 2  #0A0A0A
+Fondo: #040f20ff
+  color 2: #1B1A55
+Text:#E6EDF3
+color-1: #2AFCFF
+Accent-1:#00FFC6
+color-2: #009FFD
+Accent-2:#007BFF
+Hover:#FF4081
+hover-2: #FF00A8
+
+
+Fonts:
+Título: Clash Display
+<!--Clash Display-->
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;700&display=swap" rel="stylesheet">
+
+Sbtitulos: Outfit 
+<!-- Outfit -->
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+Texto: Work Sans 
+<!-- Work Sans -->
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+

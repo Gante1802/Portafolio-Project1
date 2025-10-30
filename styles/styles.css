@@ -1,0 +1,95 @@
+/*****************HeADER Section**********/
+.logo {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.logo:hover,
+.logo:active {
+  color: #FF4081;
+  filter: brightness(1.3);
+  filter: drop-shadow(0 0 10px #FF00A8) drop-shadow(0 0 20px #FF4081);
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.4rem;
+  padding: 0 3.6rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  background: linear-gradient(90deg, rgb(10, 10, 10, 0.6) 0%, rgb(27, 26, 85, 0.6) 50%, rgb(10, 10, 10, 0.6) 100%);
+  border-bottom: 1px solid #009FFD;
+  backdrop-filter: blur(6px);
+
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.6rem;
+  transition: all 0.2s ease;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #FF4081;
+  text-shadow: 0 0 25px #FF00A8, 0 0 20px #FF4081;
+  filter: brightness(1.3);
+}
+
+
+
+
+
+/****************************************/
+/*************Hero Section***************/
+
+.section-hero {
+  padding: 0 auto;
+}
+
+.hero {
+  max-width: 143rem;
+  margin: 0 auto;
+  gap: 9.6rem;
+  padding: 1.4rem 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: radial-gradient(circle at 50% 100%, rgba(0, 127, 255, 0.1), rgb(13, 17, 23, 0.6) 80%);
+
+}
+
+
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+/*********About Section**********/
+
+.about-section {
+  padding: 9.6rem 3.2rem;
+  background: radial-gradient(circle at 50% 0%, rgba(255, 64, 129, 0.1), rgb(13, 17, 23, 0.6) 80%);
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
