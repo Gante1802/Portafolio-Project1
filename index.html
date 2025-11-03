@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Exo2 -->
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
-  <!--Work-->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
-
+  <!--Orbiton-->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <!--Rajdhani-->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <!--Manrope-->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+  <!--ShareTechMono-->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/styles.css">
@@ -28,9 +31,9 @@
 
     <nav class="main-nav">
       <ul class="main-nav-list">
-        <li><a class="main-nav-link" href="#">About</a></li>
-        <li><a class="main-nav-link" href="#">Works</a></li>
-        <li><a class="main-nav-link" href="#">Contact</a></li>
+        <li><a class="main-nav-link" href="#about">About</a></li>
+        <li><a class="main-nav-link" href="#work">Works</a></li>
+        <li><a class="main-nav-link" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -47,8 +50,10 @@
           <p class="description hero-description glow-darkblue">
             Transforming ideas into high-impact digital interfaces
           </p>
-          <a href="#" class="btn btn--full margin-right-smt">About me</a>
-          <a href="#" class="btn btn--outline">View my projects &darr;</a>
+        </div>
+        <div class="hero-buttons">
+          <a href="#work" class="btn btn--outline btn--size-hero">View my projects &darr;</a>
+          <a href="#about" class="btn btn--full btn--size-hero">About me</a>
         </div>
       </div>
     </section>
@@ -56,19 +61,110 @@
 
     <!----------------About Section-------------->
     <section class="about-section">
-      <div class="about-text">
-        <h2 class="heading-secondary glow-pink">About Me</h2>
-        <p class="description about-description">
-          I'm Diego, a passionate web developer dedicated to crafting seamless and engaging digital experiences. With a
-          keen eye for design and a commitment to clean, efficient code, I specialize in transforming ideas into
-          functional, user-friendly websites. Let's build something amazing together!
-        </p>
+
+      <h2 class="heading-secondary glow-blue text-center" id="about">About Me</h2>
+      <div class="divs-container">
+
+        <div class="box">
+          <p class="description about-description glow-darkblue text-center">
+            I'm Diego, a passionate web developer dedicated to crafting seamless and engaging digital experiences. With
+            a
+            keen eye for design and a commitment to clean, efficient code, I specialize in transforming ideas into
+            functional, user-friendly websites. Let's build something amazing together!
+          </p>
+        </div>
+
+        <div class="box right-placed text-center">
+          Place holder for an image
+        </div>
+
+        <div class="box">
+          <h3 class="heading-tertiary glow-blue text-center">Skills</h3>
+          <ul class="skill-list description text-center">
+            <li class="glow-darkblue">HTML5 & CSS3</li>
+            <li class="glow-darkblue">Responsive Design</li>
+            <li class="glow-darkblue">Version Control (Git)</li>
+            <li class="glow-darkblue">Web Performance Optimization</li>
+          </ul>
+        </div>
+    </section>
+    <!------------About Section End-------------->
+
+    <!---------------Works Section-------------->
+    <section id="work" class="works-section">
+      <h2 class="heading-secondary glow-blue text-center">My Projects</h2>
+
+      <div class="project-card-container grid--2cols grid--center-vertically">
+
+        <div class="placeholder">
+          <h3 class="heading-tertiary glow-blue">Project 1</h3>
+          <div class="project-card">
+            <iframe class="works-iframes" src="works/intermediate layout/index.html" title="Intermediate layout">
+            </iframe>
+          </div>
+          <a href="#" class="btn btn--full btn--size-learn-more">Learn more</a>
+        </div>
+
+        <div class="placeholder">
+          <h3 class="heading-tertiary glow-blue">Project 2</h3>
+          <div class="project-card">
+            <iframe class="works-iframes" src="works/responsive menu/index.html" title="Responsive Menu">
+            </iframe>
+          </div>
+          <a href="#" class="btn btn--full btn--size-learn-more">Learn more</a>
+        </div>
+
+        <div class="placeholder">
+          <h3 class="heading-tertiary glow-blue">Project 3</h3>
+          <div class="project-card">
+            <iframe class="works-iframes" src="works/Responsive featured cards/index.html" title="Featured Card">
+            </iframe>
+          </div>
+          <a href="#" class="btn btn--full btn--size-learn-more">Learn more</a>
+        </div>
+
+        <div class="placeholder">
+          <h3 class="heading-tertiary glow-blue">Project 4</h3>
+          <div class="project-card">
+            <iframe class="works-iframes" src="works/Scrolling options/index.html" title="Scrolling Options">
+            </iframe>
+          </div>
+          <a href="#" class="btn btn--full btn--size-learn-more">Learn more</a>
+        </div>
+
       </div>
     </section>
+    <!---------------Works Section End-------------->
 
-    <!------------About Section End-------------->
+    <!-----------------Contact Section-------------->
+
+    <section class="contact-section" id="contact">
+      <h2 class="heading-secondary glow-blue text-center">Get in Touch</h2>
+      <p class="description contact-description glow-darkblue text-center">
+        Interested in collaborating or have a project in mind? Feel free to reach out!
+      </p>
+
+      <form class="contact-form">
+        <input type="text" class="form-input" placeholder="Your Name" required>
+        <input type="email" class="form-input" placeholder="Your Email" required>
+        <textarea class="form-textarea" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn--full btn--size-contact button">Send Message</button>
+      </form>
+
+    </section>
+
+    <!-----------------Contact Section End-------------->
+
+    <!------------------Footer Section------------------>
+
+    <footer class="footer">
+      <p class="footer-text glow-darkblue text-center">
+        &copy; 2024 Diego's Portfolio. All rights reserved.
+      </p>
+    </footer>
+
+    <!------------------Footer Section End------------------>
   </main>
-
 </body>
 
 </html>

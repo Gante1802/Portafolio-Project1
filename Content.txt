@@ -12,17 +12,15 @@ hover-2: #FF00A8
 
 
 Fonts:
-Título: Clash Display
-<!--Clash Display-->
-<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;700&display=swap" rel="stylesheet">
+Headings : Orbitron
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 
-Sbtitulos: Outfit 
-<!-- Outfit -->
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+Subheadings: Rajdhani
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
 
-Texto: Work Sans 
-<!-- Work Sans -->
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+Console Text (buttons): Share+Tech
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
-
+Text : Manrope 
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
 
