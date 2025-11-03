@@ -163,14 +163,12 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   padding: 2.4rem;
-  transition: all 0.3s ease;
   height: fit-content;
+  box-shadow: 0 0 10px #009FFD, 0 0 20px #007BFF;
+  margin-bottom: 0.5rem;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 10px #009FFD, 0 0 20px #007BFF
-}
+
 
 .works-iframes {
   width: 35rem;
