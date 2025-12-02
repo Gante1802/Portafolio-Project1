@@ -168,13 +168,12 @@
   margin-bottom: 0.5rem;
 }
 
-
-
 .works-iframes {
   width: 35rem;
   height: 30rem;
   border: none;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .btn--size-learn-more {
